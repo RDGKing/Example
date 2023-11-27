@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and tables</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>This section is going to help me learn how to make tables and forms in HTML</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Forms</h2>
+            <form action="https://google.com/" method="post">
+                <label for="username">Username <input type="text" id="username" name="username" maxlength="10"
+                        placeholder="Hola" required></label>
+                <label for="password">Password <input type="password" id="password" name="password" maxlength="10"
+                        required></label>
+                <label for="comments">What are you thinking right now? </label><textarea id="comments"
+                    name="comments">Enter your comments...</textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section>
+            <h3>Radio Button</h3>
+            <form action="/site/index.html">
+                <label><input type="radio" name="mob" value="Crepper" checked> Crepper</label>
+                <label><input type="radio" name="mob" value="Enderman"> Enderman</label>
+            </form>
+
+            <h3>CheckBox </h3>
+            <form action="/site/index.html">
+                <label><input type="checkbox" name="food" value="Fries Potatoes" checked> Fries Potatoes</label>
+                <label><input type="checkbox" name="food" value="Hamburger"> Hamburguer</label>
+                <label><input type="checkbox" name="food" value="Soda"> Soda</label>
+            </form>
+
+            <form action="/site/index.html">
+                <label for="animals">What is your favorite animal?</label>
+                <select id="animals" name="animals">
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Another">Another</option>
+                </select>
+            </form>
+
+            <form action="http://www.example.com/profile.php">
+                <label for="instrument">Select, what instrument do you like?</label>
+                <select id="instrument" name="Instrument" multiple="multiple" size="2">
+                    <option value="Guitar" selected="selected">Guitar</option>
+                    <option value="Piano" selected="selected">Piano</option>
+                    <option value="Violin">Violin</option>
+                </select>
+            </form>
+        </section>
+
+        <section>
+            <h2>Button</h2>
+            <form action="http://google.com" method="post">
+                <label for="picture">Add an image <input type="file" id="picture" name="picture"></label>
+                <input type="submit" value="Upload">
+            </form>
+
+            <form action="http://google.com">
+                <label for="email">Insert your email <input type="email" id="email" name="email"></label>
+                <input type="submit" name="Boton" value="Click">
+            </form>
+
+            <form action="http://www.example.com/add.php">
+                <label for="whatsapp">Send me a WhatsApp message </label>
+                <input type="image" id="whatsapp" src="/site/Pictures/whats.png" alt="WhatsApp Button" width="25">
+            </form>
+
+            <form action="http://www.example.com/add.php">
+                <label for="gmail">Send gmail</label>
+                <button id="gmail"><img src="/site/Pictures/gmail.png" alt="add" width="10"> Add</button>
+                <input type="hidden" name="bookmark" value="lyrics">
+            </form>
+
+            <fieldset>
+                <legend>Test</legend>
+                <label for="Age">¿How old are you?</label>
+                <input type="text" id="Age" maxlength="2">
+                <label>Where are you from? <input type="text" maxlength="26"></label>
+            </fieldset>
+        </section>
+
+        <form action="http://Google.com">
+            <label for="Web">Inserta una URL <input type="url" name="Website" id="Web"> </label>
+            <input type="submit" value="Submit">
+        </form>
+
+        <form action="http://Google.com">
+            <label for=Search> Buscador: <input type="search" id="Search" name="Buscador" placeholder="Write something">
+                <input type="submit" value="Submit">
+            </label>
+
+        </form>
+
+
+        <section>
+            <h3>Tables</h3>
+            <table>
+                <tr>
+                    <td>15</td>
+                    <td>15</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>60</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td>90</td>
+                    <td>90</td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                </tr>
+                <tr>
+                    <th scope="row">8:00-9:00</th>
+                    <td colspan="2" rowspan="2">Exercise</td>
+                    <td>Breakfast</td>
+                </tr>
+                <tr>
+                    <th scope="row">9:00-10:00</th>
+                    <td>Exercise</td>
+                </tr>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Days</th>
+                        <th>Money spent</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Monday</th>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>$300</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td>Total</td>
+                    <td>$1300</td>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <iframe src="https://www.youtube.com/watch?v=H_Sn0KZONTE&ab_channel=Chastudios">
+            </iframe>
+        </section>
+
+    </main>
+</body>
+
+</html>

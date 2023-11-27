@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and tables</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>This section is going to help me in order to learn how to make tables and forms in HTML</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Forms</h2>
+            <h3>Form Text</h3>
+            <p><b>Llenar</b></p>
+            <form action="https://google.com/" method="get">
+                <p>Username <input type="text" name="username" maxlength="10"></p>
+
+                <p>Password <input type="password" name="password" maxlength="10"></p>
+
+                <p>¿What are you thinking right now? </p>
+                <textarea name="comments">Enter your comments...</textarea>
+
+                <p><input type="submit" value="submit"></p>
+            </form>
+        </section>
+
+        <section>
+            <h3>Radio Button</h3>
+            <p><b>Eleccion</b></p>
+            <form action="/site/index.html" method="">
+                <p>Select your favorite mob:
+                    <br />
+                    Crepper <input type="radio" name="mob" value="Crepper">
+                    <br />
+                    Enderman <input type="radio" name="mob" value="Enderman">
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h3>CheckBox </h3>
+            <form action="/site/index.html">
+                <p> ¿What do you want to eat?</p>
+                <p> Fries Potatoes<input type="checkbox" name="food" value="Fries Potatoes" checked></p>
+                <p> Hamburguer <input type="checkbox" name="food" value="Hamburger"></p>
+                <p> Soda <input type="checkbox" name="food" value="Soda"></p>
+            </form>
+        </section>
+
+        <section>
+            <form action="/site/index.html">
+                <p>
+                    What is your favorite animal?
+                </p>
+                <select name="animals">
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Another">Another</option>
+                </select>
+            </form>
+        </section>
+
+        <section>
+            <form action="http://www.example.com/profile.php">
+                <p>
+                    Select, ¿What instrument do you like?
+                    <select name="Instrument" multiple="multiple" size="2">
+                        <option value="Guitar" selected="selected">Guitar</option>
+                        <option value="Piano" selected="selected">Piano</option>
+                        <option value="Violin">Violin</option>
+                    </select>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h2> Button</h2>
+            <form action="http://google.com" method="post">
+                <p> Agrega una imagen <input type="file" name="picture"><br />
+                    <input type="submit" name = "boton" value="Upload" />
+                </p>
+            </form>
+
+
+            <form action=http://google.com>
+                <p> Inserta tu correo papi <input type="email" name="email"></p>
+                <input type="submit" name="Boton" value="Click" />
+            </form>
+            <br />
+
+            <form action="http://www.example.com/add.php">
+                <p>Mandame un guasa </p>
+                <input type="image" src="/site/Pictures/whats.png" alt="BotonWASAP" width="25">
+            </form>
+
+            <form action="http://www.example.com/add.php">
+                <button><img src="/site/Pictures/gmail.png" alt="add" width="10" /> Add</button>
+                <input type="hidden" name="bookmark" value="lyrics">
+            </form>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
