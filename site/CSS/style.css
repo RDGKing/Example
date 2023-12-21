@@ -1,0 +1,69 @@
+body {
+  font-family: arial;
+  background-color: rgb(246, 242, 241);
+}
+
+header {
+  font-family: 'Times New Roman';
+}
+
+a:link,
+a:visited {
+  /*Quita el formato a los links que no y si hemos visitado*/
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  /*Quitar puntos de la lista*/
+  list-style: none;
+}
+
+a:hover {
+  /*Cuando pasas por el enlace el mouse se torna en rojo*/
+  color: rgb(198, 31, 31);
+}
+
+
+h1 {
+  color: rgb(138, 11, 11);
+  font-size: 21px;
+}
+
+h2 {
+  color: rgb(45, 94, 142);
+  font-size: 32px;
+}
+
+header p {
+  font-size: 14px;
+}
+
+h3 {
+  color: rgb(162, 54, 47)
+}
+
+h4 {
+  color: rgb(29, 27, 27);
+}
+
+header {
+  background-color: rgb(199, 156, 156);
+}
+
+nav {
+  background-color: rgb(221, 190, 190);
+}
+
+footer {
+  background-color:
+    rgb(210, 160, 160);
+}
+
+p.phrase{
+font-size: 10px;
+
+}
+#Contact {
+  color: black;
+}
